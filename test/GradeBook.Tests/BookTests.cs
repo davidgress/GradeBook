@@ -6,7 +6,7 @@ namespace GradeBook.Tests
     public class BookTests
     {
         [Fact]  // a piece of fact, xunit looks for these, a decorator
-        public void Test1()
+        public void BookCalculatesAnAverageGrade()
         {
             // 3 sections
             // arrange section

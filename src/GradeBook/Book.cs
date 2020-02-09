@@ -5,11 +5,11 @@ using System.Collections.Generic;
 namespace GradeBook {
     public class Book {
         List<double> grades;
-        private string name;
+        public string Name;
 
         public Book(string name) {
             this.grades = new List<double>();
-            this.name = name;
+            Name = name;
         }
         public void AddGrade(double grade) {
             this.grades.Add(grade);
